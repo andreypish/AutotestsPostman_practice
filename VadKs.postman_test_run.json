@@ -1,0 +1,298 @@
+{
+	"id": "c0bc9e47-9385-4fe1-b345-af8c6a685a87",
+	"name": "VadKs",
+	"timestamp": "2021-04-13T11:08:11.931Z",
+	"collection_id": "834e14a6-fffa-412b-a455-5faa007883d0",
+	"folder_id": 0,
+	"environment_id": "88940f49-7877-4aa4-b8b8-e466e0bcb730",
+	"totalPass": 18,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fab6dcde-3576-49b0-afe0-99f3d43bceea",
+			"name": "POST login",
+			"url": "http://116.203.27.46:5002/login",
+			"time": 898,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				898
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c49673ea-4776-4574-bd9a-ea7bf22a80e8",
+			"name": "POST User Info",
+			"url": "http://116.203.27.46:5002/user_info?",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema": true,
+				"multiplication is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"multiplication is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema": true,
+					"multiplication is valid": true
+				}
+			]
+		},
+		{
+			"id": "1f329629-6994-44d7-8b5e-bd2093b082b3",
+			"name": "POST New Data",
+			"url": "http://116.203.27.46:5002/new_data",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema": true,
+				"multiplication is valid": true,
+				"arr2 > arr1, arr0 is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"multiplication is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"arr2 > arr1, arr0 is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema": true,
+					"multiplication is valid": true,
+					"arr2 > arr1, arr0 is valid": true
+				}
+			]
+		},
+		{
+			"id": "02fe40c2-4e85-4451-ade0-f64598b8e483",
+			"name": "POST test pet info",
+			"url": "http://116.203.27.46:5002/test_pet_info",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema": true,
+				"multiplication is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"multiplication is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema": true,
+					"multiplication is valid": true
+				}
+			]
+		},
+		{
+			"id": "930712a4-5133-4cd6-8d94-6415a3e1243e",
+			"name": "POST get test user",
+			"url": "http://116.203.27.46:5002/get_test_user",
+			"time": 158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema": true,
+				"name = name": true,
+				"age = age": true,
+				"Contents": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"name = name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"age = age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Contents": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				158
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema": true,
+					"name = name": true,
+					"age = age": true,
+					"Contents": true
+				}
+			]
+		},
+		{
+			"id": "91100254-0c05-470b-8fab-5f0af3103cbb",
+			"name": "POST currency",
+			"url": "http://116.203.27.46:5002/currency",
+			"time": 729,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				729
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5353c08-5d21-49b0-bb31-d7aa80db4820",
+			"name": "POST curr by",
+			"url": "http://116.203.27.46:5002/curr_byn",
+			"time": 439,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				439
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2653,
+	"collection": {
+		"requests": [
+			{
+				"id": "fab6dcde-3576-49b0-afe0-99f3d43bceea",
+				"method": "POST"
+			},
+			{
+				"id": "c49673ea-4776-4574-bd9a-ea7bf22a80e8",
+				"method": "POST"
+			},
+			{
+				"id": "1f329629-6994-44d7-8b5e-bd2093b082b3",
+				"method": "POST"
+			},
+			{
+				"id": "02fe40c2-4e85-4451-ade0-f64598b8e483",
+				"method": "POST"
+			},
+			{
+				"id": "930712a4-5133-4cd6-8d94-6415a3e1243e",
+				"method": "POST"
+			},
+			{
+				"id": "91100254-0c05-470b-8fab-5f0af3103cbb",
+				"method": "POST"
+			},
+			{
+				"id": "c5353c08-5d21-49b0-bb31-d7aa80db4820",
+				"method": "POST"
+			}
+		]
+	}
+}
